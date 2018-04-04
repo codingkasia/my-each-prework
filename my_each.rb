@@ -7,7 +7,6 @@ def my_each(arr)
   arr 
 end
 
-new = []
 my_each([1, 2, 3, 4]) do |num| 
-  new << num + 10 
+  num 
 end
